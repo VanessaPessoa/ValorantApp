@@ -1,0 +1,33 @@
+.border-page {
+    position: relative;
+    background-color: #fff;
+    background-image: url('../../assets/imgs/valorant-logo.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 95% 2vh;
+    border: 15px solid #440408;
+    padding: 40px;
+    width: calc(100% - 110px);
+    min-height: calc(100vh - 110px);
+}
+
+.border-side {
+    position: fixed;
+    width: 10px;
+    height: 300px;
+    top: calc(50vh - 180px);
+}
+
+.border-side:nth-child(1) {
+    left: 0px;
+    border-left: 30px solid #440408;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.border-side:nth-child(2) {
+    right: 0px;
+    border-right: 30px solid #440408;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
